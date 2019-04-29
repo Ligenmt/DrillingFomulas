@@ -1,0 +1,4 @@
+com.ligenmt.drillingformula.fragment.drillingmud.ClayVolumeFragment
+com.ligenmt.drillingformula.fragment.drillingmud.FlowIndexFragment
+com.ligenmt.drillingformula.fragment.drillingmud.ReynoldsFragment
+com.ligenmt.drillingformula.fragment.drillingmud.YieldPointFragment

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="mainformula">
+        <item>钻井基本公式</item>
+        <item>定向井计算公式</item>
+        <item>钻井液计算公式</item>
+        <item>我的收藏</item>
+        <item>关于</item>
+    </string-array>
+
+    <string-array name="basic_drilling_formula">
+        <item>钻屑体积计算</item>
+        <item>环空体积计算</item>
+        <item>环空流速计算</item>
+        <item>压力与当量密度转换</item>
+        <item>地层温度计算</item>
+        <item>循环当量密度</item>
+        <item>D指数计算</item>
+    </string-array>
+    
+    <string-array name="directional_drilling_formula">
+        <item>狗腿严重度计算</item>
+        <item>目标段井斜角计算</item>
+    </string-array>
+    
+    <string-array name="drilling_mud_formula">
+        <item>配浆黏土量计算</item>
+        <item>流性指数计算</item>
+        <item>雷诺数计算</item>
+        <item>动切力计算</item>
+    </string-array>
+</resources>

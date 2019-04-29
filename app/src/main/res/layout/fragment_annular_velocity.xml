@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center"
+    	android:text="环空流速计算" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="流量，bbl/min" />
+
+        <EditText
+            android:id="@+id/et_flowrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="外径，inches" />
+
+        <EditText
+            android:id="@+id/et_outersize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="内径，inches" />
+
+        <EditText
+            android:id="@+id/et_innersize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="环空流速，ft/min" />
+
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:editable="false" />
+    </LinearLayout>
+
+</LinearLayout>

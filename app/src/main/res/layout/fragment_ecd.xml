@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center"
+    	android:text="循环当量密度计算" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="环空压力，psi" />
+
+        <EditText
+            android:id="@+id/et_pressure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="泥浆密度，ppg" />
+
+        <EditText
+            android:id="@+id/et_mudweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="地层深度，ft" />
+
+        <EditText
+            android:id="@+id/et_depth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="循环当量密度ECD，ppg" />
+
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </LinearLayout>
+
+</LinearLayout>

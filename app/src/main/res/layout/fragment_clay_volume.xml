@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center"
+    	android:text="配浆粘土量计算" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="钻井液体积，m3" />
+
+        <EditText
+            android:id="@+id/et_mud_volume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="粘土密度，g/cm3" />
+        
+        <EditText
+            android:id="@+id/et_den_clay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="钻井液密度，g/cm3" />
+        
+        <EditText
+            android:id="@+id/et_den_mud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="水的密度，g/cm3" />
+
+        <EditText
+            android:id="@+id/et_den_water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="所需粘土量，t" />
+
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </LinearLayout>
+
+</LinearLayout>

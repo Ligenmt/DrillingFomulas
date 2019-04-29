@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center"
+    	android:text="D指数计算" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="钻进速度，ft/h" />
+
+        <EditText
+            android:id="@+id/et_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="旋转速度，rpm" />
+
+        <EditText
+            android:id="@+id/et_rpm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="钻头重量，klb" />
+
+        <EditText
+            android:id="@+id/et_bitweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="钻头直径，inchs" />
+
+        <EditText
+            android:id="@+id/et_bitdiameter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="D指数" />
+
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </LinearLayout>
+
+</LinearLayout>

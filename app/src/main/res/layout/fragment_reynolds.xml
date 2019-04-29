@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:gravity="center"
+    	android:text="雷诺数（管流）计算" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="流体流速，m/s" />
+
+        <EditText
+            android:id="@+id/et_speed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="流体密度，kg/m3" />
+
+        <EditText
+            android:id="@+id/et_density"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="粘度，Pa.S" />
+
+        <EditText
+            android:id="@+id/et_viscosity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+        
+        <TextView
+            style="@style/NormalTextView"
+            android:text="直径，m" />
+
+        <EditText
+            android:id="@+id/et_diameter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            style="@style/NormalTextView"
+            android:text="雷诺数" />
+
+        <EditText
+            android:id="@+id/et_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="false" />
+    </LinearLayout>
+
+</LinearLayout>
